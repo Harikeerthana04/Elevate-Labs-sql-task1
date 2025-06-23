@@ -1,13 +1,17 @@
-Library Management System SQL Schema
+**Library Management System SQL Schema**
 This repository contains the SQL schema and an Entity-Relationship (ER) Diagram for a Library Management System, developed as part of an SQL Developer internship task.
 
-Project Overview
+**Project Overview**
 The objective of this task was to design and implement a relational database schema for a library, focusing on database creation, table definition, and establishing relationships using primary and foreign keys.
 
-Chosen Domain: Library Management System
+**Chosen Domain:** Library Management System
 The domain selected for this task is a Library Management System, which aims to manage books, authors, borrowers, and the borrowing process.
 
-Entities and Relationships
+**ER Diagram:**
+
+![ER TASK1](https://github.com/user-attachments/assets/2b7d4c07-b624-4d40-a86a-f1e9a2e45048)
+
+**Entities and Relationships**
 The following core entities have been identified and modeled in the database:
 
 Authors: Stores information about the authors of books.
@@ -53,14 +57,14 @@ Borrowers and Loans (One-to-Many): One borrower can borrow many books over time.
 
 Books and Loans (One-to-Many): A single book title can be borrowed multiple times by different borrowers over time. The Loans table references the Books table via book_id.
 
-Deliverables
+**Deliverables**
 This repository includes:
 
 library_management_system_schema.sql: This SQL script contains all the Data Definition Language (DDL) statements to create the library_management_system database, define all tables, set up primary and foreign key constraints, and add relevant check constraints and indexes. It also includes sample Data Manipulation Language (DML) statements to populate the tables with initial data.
 
 library_er_diagram.png (or .svg): An Entity-Relationship (ER) Diagram providing a visual representation of the database schema, illustrating the entities, their attributes, and the relationships between them using standard notation.
 
-How to Use
+**How to Use**
 To set up this database:
 
 Install MySQL: Ensure you have MySQL Server installed and running on your system.
