@@ -8,8 +8,8 @@ The objective of this task was to design and implement a relational database sch
 The domain selected for this task is a Library Management System, which aims to manage books, authors, borrowers, and the borrowing process.
 
 **ER Diagram:**
+![ER TASK1](https://github.com/user-attachments/assets/3ecb0f5b-e357-4e50-9fcf-b41a0607eace)
 
-![ER TASK1](https://github.com/user-attachments/assets/2b7d4c07-b624-4d40-a86a-f1e9a2e45048)
 
 **Entities and Relationships**
 The following core entities have been identified and modeled in the database:
